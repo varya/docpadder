@@ -1,0 +1,17 @@
+{
+  "name": "docpadder",
+  "version": "0.0.01",
+  "description": "Docpad engine for Shower",
+  "engines": {
+    "node": "0.10",
+    "npm": "1.3"
+  },
+  "dependencies": {
+    "docpad": "~6.69.2",
+    "docpad-plugin-eco": "~2.1.0"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
+}
