@@ -1,0 +1,19 @@
+{
+  "name": "docpadder",
+  "version": "0.0.0",
+  "authors": [
+    "Varya Stepanova <mail@varya.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "shower-bright": "~1.0.11",
+    "shower-core": "~1.0.7"
+  }
+}
