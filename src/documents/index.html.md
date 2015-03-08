@@ -1,5 +1,7 @@
 ---
 
+layout: default
+
 style: |
 
     #Cover h2 {

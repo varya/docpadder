@@ -3,9 +3,11 @@
     <title><%= @document.title %> | My Website</title>
     <%- @getBlock("meta").toHTML() %>
     <%- @getBlock("styles").add(@site.styles).toHTML() %>
+    <style>
+        <%= @document.style %>
+    </style>
 </head>
-<body>
-    <h1><%= @document.title %></h1>
+<body class="list">
     <%- @content %>
     <%- @getBlock("scripts").add(@site.scripts).toHTML() %>
 </body>
